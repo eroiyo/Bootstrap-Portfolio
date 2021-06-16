@@ -1,0 +1,286 @@
+* {
+  font-family: "Roboto",monospace;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  
+}
+body {
+  padding-bottom: 40px;
+  background-color: #191765;
+  -webkit-tap-highlight-color:#191765;
+  overflow-x: hidden;
+}
+.half{
+  width: 31%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.info{
+  width: 447px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 88px;
+  margin-bottom: 33px;
+  color:#B3BAC5;
+}
+.lead{
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #DFE1E6;
+}
+.contact-info {
+  width: 684px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 163px;
+  line-height: 28px;
+  color:#B3BAC5;
+}
+.contact-title{
+  font-size: 40px;
+  width: 684px;
+  margin-top: 228px;
+  color: #9390FF;
+  line-height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table{
+  border-bottom: #191765;
+}
+
+thead{
+  color:#9390FF;
+  font-size: 16px;
+}
+tbody{
+  color: white;
+}
+h1 {
+  margin-top: 140px;
+  font-size: 90px;
+  text-align: center;
+  color: #9390FF  ;
+}
+.title2{
+  margin-top: 24px;
+  width: 1024;
+  color: #DFE1E6;
+  font-size: 40px;
+}
+
+.inner-cover {
+  text-align: center;
+}
+.img{
+  height: 448px;
+  width: 684px;
+  background-color: red;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.subtitle{
+  margin-top: 80px;
+  text-align: left;
+}
+
+.featurette{
+  margin-top: 80px;
+}
+.featurette-image{
+  background-color: white;
+  width: 80%;
+}
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.bar{
+  margin: 0px 0;
+  margin-bottom: 80px;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+.input {
+  height: 50px;
+  border-radius: 0px;
+}
+.mail{
+  width: 97.5%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.textarea {
+  width: 97.5%;
+  height: 150px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius: 0px;
+}
+span {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 16px;
+}
+.rectangle {
+  margin-left: auto;
+  margin-right: auto;
+}
+#link {
+  position: relative;
+  top: 10px;
+}
+
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-top: 7vw;
+  width: 100%;
+}
+
+.social-media2 {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  color: white;
+}
+.bar {
+  width: 100vw;
+}
+
+.social-li {
+  float: left;
+  width: 80px;
+  font-size: 16px;
+}
+
+li {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: initial;
+  margin-block-start: initial;
+  margin-block-end: initial;
+  margin-inline-start: initial;
+  margin-inline-end: initial;
+  padding-inline-start: initial;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+  margin-top: 46px;
+  width: 100%;
+}
+button {
+  display: flex;
+  background-color: #7d73fc;
+  color: black;
+  transition-duration: 0.4s;
+  border: none;
+  text-align: center;
+  padding: 16px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.button:focus {
+  background-color: #5e42d7;
+}
+
+button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: #7d73fc;
+}
+
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit:hover {
+  color: #fff;
+  background-color: #7d73fc;
+}
+
+.submit:active {
+  color: #eaeaf6;
+  background-color: #5e42d7;
+}
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .featurette-image{
+      order: 1;
+  }
+  .part-b{
+    order:2;
+  }
+}
+
