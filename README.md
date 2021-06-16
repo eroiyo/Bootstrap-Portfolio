@@ -4,7 +4,7 @@
 
 > A webpage to show others projects using bootstrap
 
-![screenshot](![image](https://user-images.githubusercontent.com/59938389/122271269-3cd22080-cead-11eb-967a-dda3829ff847.png))
+![screenshot](https://user-images.githubusercontent.com/59938389/122271269-3cd22080-cead-11eb-967a-dda3829ff847.png)
 
 ## Live Demo
 
