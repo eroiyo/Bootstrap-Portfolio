@@ -1,0 +1,63 @@
+* {
+    font-family: "Roboto",monospace;
+    font-style: normal;
+    font-weight: bold;
+}
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+.inner-cover {
+  text-align: center;
+}
+.featurette-image {
+  width: 500px;
+  height: 500px;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette-heading {
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width 99px) {
+    .featurette-image{
+        order: 1;
+    }
+}
